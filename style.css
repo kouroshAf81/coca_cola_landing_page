@@ -72,7 +72,7 @@ header .logo {
 
 .content .textBox {
     position: relative;
-    max-width: 600px;
+    max-width: 450px;
     margin-right: 20px;
 }
 
@@ -141,6 +141,7 @@ header .logo {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 
 .swiper-slide {
@@ -167,7 +168,7 @@ header .logo {
     background: none;
 }
 
-@media (max-width : 991px) {
+@media (max-width : 1126px) {
     header {
         padding: 40px;
     }
@@ -227,7 +228,6 @@ header .logo {
     .toggle.active {
         position: fixed;
         right: 40px;
-        background: url('image/close.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
@@ -238,4 +238,14 @@ header .logo {
         font-weight: 300;
         font-size: 1.5em;
     }
+}
+
+@media (max-width: 320px) {
+    section {
+        padding: 150px 20px;
+    }
+    .content .textBox h2 {
+        font-size: 2.5em;
+    }
+    
 }
